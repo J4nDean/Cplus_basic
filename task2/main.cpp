@@ -8,10 +8,10 @@
     #define WITH_NUM_MSG " for "
     #define ZERO_MSG "0"
 #elif defined(POL)
-#define PROMPT_MSG "Podaj liczbę naturalną (jeśli chcesz przerwać program, wprowadź 0): "
-#define RESULT_MSG "Maksymalna suma cyfr to "
-#define WITH_NUM_MSG " z liczbą "
-#define ZERO_MSG "0"
+    #define PROMPT_MSG "Podaj liczbę naturalną (jeśli chcesz przerwać program, wprowadź 0): "
+    #define RESULT_MSG "Maksymalna suma cyfr to "
+    #define WITH_NUM_MSG " z liczbą "
+    #define ZERO_MSG "0"
 #endif
 
 int main() {
