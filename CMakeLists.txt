@@ -11,3 +11,6 @@ add_executable(main2 ${task02_src})
 
 set(task03_src "task03/main3.cpp")
 add_executable(main3 ${task03_src})
+
+set(task04_src "task04/main4.cpp")
+add_executable(main4 ${task04_src})
