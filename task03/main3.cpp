@@ -32,26 +32,26 @@ void getMinMax(const double &a, const double& b,
 void getMinMax(const double *a, const double* b,
                const double* c,
                const double** pMin, const double** pMax) {
-    if (*a <= *b && *a <= *c ){
-        *pMax = a;
+    if (*a <= *b && *a <= *c) {
+        *pMin = a;
         if (*b >= *c) {
             *pMax = b;
         } else {
             *pMax = c;
         }
-    }else if (*b <= *a && *b <= *c ) {
-        *pMax = b;
+    } else if (*b <= *a && *b <= *c) {
+        *pMin = b;
         if (*a >= *c) {
             *pMax = a;
         } else {
             *pMax = c;
         }
-    }else{
+    } else {
         *pMin = c;
-        if (*a <= *c){
-            *pMax = a;
-        }else{
+        if (*a <= *b) {
             *pMax = b;
+        } else {
+            *pMax = a;
         }
     }
 }
