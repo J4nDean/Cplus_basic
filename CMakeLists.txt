@@ -14,3 +14,15 @@ add_executable(main3 ${task03_src})
 
 set(task04_src "task04/main4.cpp")
 add_executable(main4 ${task04_src})
+
+set(practice_src "practice/test00.cpp")
+add_executable(test00 ${practice_src})
+
+set(practice_src "practice/test01.cpp")
+add_executable(test01 ${practice_src})
+
+set(practice_src "practice/test02.cpp")
+add_executable(test02 ${practice_src})
+
+set(practice_src "practice/test03.cpp")
+add_executable(test03 ${practice_src})
