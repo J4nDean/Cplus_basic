@@ -1,28 +1,9 @@
-cmake_minimum_required(VERSION 3.24)
-project(itnPJC)
-
+cmake_minimum_required(VERSION 3.22)
+project(repos)
 set(CMAKE_CXX_STANDARD 17)
 
-set(task01_src "task01/main1.cpp")
-add_executable(main1 ${task01_src})
-
-set(task02_src "task02/main2.cpp")
-add_executable(main2 ${task02_src})
-
-set(task03_src "task03/main3.cpp")
-add_executable(main3 ${task03_src})
-
-set(task04_src "task04/main4.cpp")
-add_executable(main4 ${task04_src})
-
-set(practice_src "practice/test00.cpp")
-add_executable(test00 ${practice_src})
-
-set(practice_src "practice/test01.cpp")
-add_executable(test01 ${practice_src})
-
-set(practice_src "practice/test02.cpp")
-add_executable(test02 ${practice_src})
-
-set(practice_src "practice/test03.cpp")
-add_executable(test03 ${practice_src})
+add_subdirectory(practice)
+add_subdirectory(task01)
+add_subdirectory(task02)
+add_subdirectory(task03)
+add_subdirectory(task04)

@@ -1,0 +1,4 @@
+add_executable(program00 test00.cpp)
+add_executable(program01 test01.cpp)
+add_executable(program02 test02.cpp)
+add_executable(program03 test03.cpp)
