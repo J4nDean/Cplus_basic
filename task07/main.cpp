@@ -1,4 +1,5 @@
 #include <iostream>
+
 enum Banks {PKO, BGZ, BRE, BPH};
 
 struct Account {
